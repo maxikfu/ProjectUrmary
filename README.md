@@ -1,5 +1,5 @@
 # ProjectUrmary
-This project uses VK API to help managing community in social network vk.com. 
+This project uses VK API to help managing community in social network VK (https://vk.com). 
 In this project I implemented next functionalities:
 1)	Publishing anonymously or not suggested posts from community members depending on their preference
 2)	Automatically posting Birthday wishes to community wall.
@@ -17,7 +17,7 @@ AWS
 S3 (optional)
 Access Token
 ```
-You need to receive community token and user token to gain access to VK API and all functionalities (https://vk.com/dev/access_token). Save these tokens in tokens.txt file (IMPORTANT: DO NOT share this information with public).
+You need to receive access tokens (community token and user token) to gain access to VK API and all functionalities (https://vk.com/dev/access_token). Save these tokens in tokens.txt file (IMPORTANT: DO NOT share this information with public).
 To work with community events in real time you need Bots Long Poll API. Instructions: https://vk.com/dev/bots_longpoll
 
 ### Project structure and examples
