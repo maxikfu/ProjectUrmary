@@ -21,7 +21,7 @@ class EventResponse:
     def anonymity_check(self, wall_post_text):  # need more sophisticated algorithm
         if re.search(r"(не *анон)|(не *от *анон)", wall_post_text, re.IGNORECASE):  # not anon
             return 1
-        elif re.search(r"\b(анон)\b|\b(анонимно)\b|(аноним)", wall_post_text, re.IGNORECASE):  # anon post
+        elif re.search(r"\b(анон)\b|\b(анонимно)\b|(аноним)|\b(anon)", wall_post_text, re.IGNORECASE):  # anon post
             return 0
         else:
             return 1
