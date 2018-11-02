@@ -17,7 +17,12 @@ AWS
 S3 (optional)
 Access Token
 ```
-You need to receive access tokens (community token and user token) to gain access to VK API and all functionalities (https://vk.com/dev/access_token). Save these tokens in tokens.txt file (IMPORTANT: DO NOT share this information with public).
+You need to receive access tokens (community token and user token) to gain access to VK API and all functionalities (https://vk.com/dev/access_token). Cretae file tokens.txt and then save tokens in  file (IMPORTANT: DO NOT share this information with public).
+```
+# tokens.txt file format
+community_token, --COMMUNITY TOKEN--
+user_token, --USER TOKEN--
+```
 To work with community events in real time you need Bots Long Poll API. Instructions: https://vk.com/dev/bots_longpoll
 
 ### Project structure and examples
