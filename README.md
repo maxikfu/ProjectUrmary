@@ -12,11 +12,30 @@ All these implementation was deployed to AWS server with S3 storage and schedule
 
 ## Prerequisites
 ```
-Python 3.6 with libraries (re, Beautiful Soup, NumPy, json, VK etc.)
+Python 3.6
 AWS
 S3 (optional)
+Access Token
 ```
 You need to receive community token and user token to gain access to VK API and all functionalities (https://vk.com/dev/access_token). Save these tokens in tokens.txt file (IMPORTANT: DO NOT share this information with public).
+To work with community events in real time you need Bots Long Poll API. Instructions: https://vk.com/dev/bots_longpoll
+
+### Project structure and examples
+* ELIZA.py
+```
+# Example of simple use
+eliza = ElizaBOT() # initialize object
+response = eliza.response(inpot_text)
+```
+* EventResponse.py -
+ Manages all new events happening in the community (messages, suggested posts)
+ 
+ * MemberBirthDay.py - 
+ Makes posts in community wall wishing Happy Birthday.
+ 
+ 
+
 
 ## Authors
 * **Maksim Egorov** - [Maxikfu](https://github.com/Maxikfu)
+
