@@ -12,7 +12,7 @@ All these implementation was deployed to AWS server with S3 storage and schedule
 
 ## Prerequisites
 ```
-Python 3.6
+Python 3.5
 AWS
 S3 (optional)
 Access Token
