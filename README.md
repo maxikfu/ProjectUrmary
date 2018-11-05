@@ -3,7 +3,7 @@ This project uses VK API to help managing community in social network VK (https:
 In this project I implemented next functionalities:
 1)	Publishing anonymously or not suggested posts from community members depending on their preference
 2)	Automatically posting Birthday wishes to community wall.
-3)	Extracting relative news from local news web site and publish them om community wall every day. (Web scrapping)
+3)	Extracting relative news from local news web site and publish them om community wall every day. (Web scraping)
 4)	Chat bot Eliza linked to community messages with ability for users to start conversation with chat bot by using specific key words.
 5)	Repost news from popular communities
 6)	Sending invites to the users who are members of different communities or public pages.
